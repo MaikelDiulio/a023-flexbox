@@ -7,7 +7,12 @@
   height: 100vh;
   width: 100vw;
   background-color: lightgray;
-  display: flex;
+ display: flex;
+ flex-direction: column;
+ gap: 50px;
+ align-items: center;
+ justify-content: center;
+ 
 }
 
 .item {
@@ -15,4 +20,13 @@
   background-color: white;
   height: 180px;
   width: 180px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content:center ;
 }
+
+/* display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; */
